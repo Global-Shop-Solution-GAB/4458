@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>124</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>124</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>124</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.Preflight.Start</string>
+        <string />
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'This project will add the user fields 1 and 2, and the Weight Field to the Supply and demand screen.</string>
+        <string>'programmer: WAW</string>
+        <string>'date: 3/13/17</string>
+        <string />
+        <string>'open connection</string>
+        <string>F.ODBC.Connection!conx.OpenConnection(V.Ambient.PDSN, V.Ambient.PUser, V.Ambient.PPass)</string>
+        <string />
+        <string>'call the populate sub</string>
+        <string>f.Intrinsic.Control.CallSub(populate)</string>
+        <string />
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4458_SupDmndFields.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.Unload.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Unload_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'closing connection and ending program</string>
+        <string>F.ODBC.Connection!conx.Close</string>
+        <string>f.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Unload_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4458_SupDmndFields.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.End</string>
+        <string />
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Unload.End</string>
+        <string />
+        <string>Program.Sub.Populate.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Populate_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>v.Local.ssql.Declare(String)</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.spart.Declare(string)</string>
+        <string>'if the change part hook fires</string>
+        <string>f.Intrinsic.Control.If(v.Caller.Hook,=,14051)</string>
+        <string>	'user 1</string>
+        <string>	V.Passed.GAB-LBL-1.Set("Min Ord Qty")</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-LBL-1","PL",90)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-LBL-1","PT",502)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-LBL-1","PW",60)</string>
+        <string />
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-TEXT-1","PL",150)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-TEXT-1","PT",502)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-TEXT-1","PW",60)</string>
+        <string>	F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-1,"HIDE",0)</string>
+        <string>	F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-1,"LOCK",1)</string>
+        <string>	'user 2</string>
+        <string>	V.Passed.GAB-LBL-2.Set("Price List")</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-LBL-2","PL",215)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-LBL-2","PT",502)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-LBL-2","PW",50)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-TEXT-2","PL",265)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-TEXT-2","PT",502)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-TEXT-2","PW",60)</string>
+        <string>	F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-2,"HIDE",0)</string>
+        <string>	F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-2,"LOCK",1)</string>
+        <string>	'weight</string>
+        <string>	V.Passed.GAB-LBL-3.Set("Weight")</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-LBL-3","PL",330)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-LBL-3","PT",502)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-LBL-3","PW",35)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-TEXT-3","PL",375)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-TEXT-3","PT",502)</string>
+        <string>	F.Intrinsic.Variable.SetProperty("GAB-TEXT-3","PW",60)</string>
+        <string>	F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-3,"HIDE",0)</string>
+        <string>	F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-3,"LOCK",1)</string>
+        <string />
+        <string>	'put the part number together</string>
+        <string>	f.Intrinsic.String.GSSPartString(v.Passed.000003,v.Passed.000099,v.Local.spart)</string>
+        <string>	'query for the parts information</string>
+        <string>	f.Intrinsic.String.Build("Select TEXT_INFO1, TEXT_INFO2, LBS from V_INVENTORY_MST2 where PART = '{0}' and LOCATION = '{1}'",v.Local.spart.Trim,v.Passed.00004,v.Local.ssql)</string>
+        <string>	F.ODBC.Connection!conx.OpenLocalRecordsetRO("rst",V.Local.sSQL)</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.conx!rst.EOF,&lt;&gt;,True)</string>
+        <string>		v.Passed.GAB-TEXT-1.Set(v.ODBC.conx!rst.FieldValTrim!TEXT_INFO1)</string>
+        <string>		v.Passed.GAB-TEXT-2.Set(v.ODBC.conx!rst.FieldValTrim!TEXT_INFO2)		</string>
+        <string>		v.Passed.GAB-TEXT-3.Set(v.ODBC.conx!rst.FieldValTrim!LBS)</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.ODBC.conx!rst.Close</string>
+        <string>	f.Intrinsic.Control.CallSub(unload)</string>
+        <string>f.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Populate_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4458_SupDmndFields.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Populate.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$WAW$}$3/13/2017 1:18:31 PM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>41</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>4</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>32</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>34</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>55</Y>
+        </EndPoint>
+        <Text>Program.Sub.Unload</Text>
+        <DisplayText>Program.Sub.Unload</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>57</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>122</Y>
+        </EndPoint>
+        <Text>Program.Sub.Populate</Text>
+        <DisplayText>Program.Sub.Populate</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>124</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>126</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
